@@ -16,8 +16,11 @@ namespace CompositeDemo
 
             var emily = new Person { Name = "Emily" };
             var sophia = new Person { Name = "Sophia" };
+
             var brian = new Person { Name = "Brain" };
+
             var developers = new Group { Name = "Developers", Members = { joe, jake, emily } };
+
             var individuals = new List<Person> { sophia, brian };
             var groups = new List<Group> { developers };
             var totalToSplitBy = individuals.Count + groups.Count;
