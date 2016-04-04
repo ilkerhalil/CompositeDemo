@@ -11,7 +11,9 @@ namespace CompositeDemo
             Console.WriteLine($"You have killed the Giant IE6 Monster and gained {goldForKill} gold");
 
             var joe = new Person { Name = "Joe" };
+
             var jake = new Person { Name = "Jake" };
+
             var emily = new Person { Name = "Emily" };
             var sophia = new Person { Name = "Sophia" };
             var brian = new Person { Name = "Brain" };
