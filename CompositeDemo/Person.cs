@@ -5,6 +5,8 @@ namespace CompositeDemo
     internal class Person
     {
         public string Name { get; set; }
+
+
         public int Gold { get; set; }
 
         public void Stats()
